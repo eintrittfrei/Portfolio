@@ -1,0 +1,117 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  font-family: 'nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: #1b262c;
+  color: white;
+
+}
+
+nav {
+  .navbar-brand{
+    font-family: Allerta stencil;
+    font-size: larger;
+  }
+  
+  
+  }
+
+
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
+.devicon-vscode-plain-wordmark{
+max-width: 2em;
+fill: #1b262c;
+color: #1b262c;
+}
+h1 {
+  color: #1b262c;
+}
+.devicon-devicon-plain path {
+fill: #1b262c;
+color: #1b262c;
+}
+.devicon-devicon-plain {
+  max-width: 4em;
+  margin: 1em;
+  
+  }
+  
+.allerta {
+  font-family: Allerta Stencil;
+}
+// div.allerta.home {
+//   margin-top: 10em;
+
+// }
+.home{
+  background-color: #1b262c;
+  padding: 15%;
+ 
+}
+.about{
+  background-color: white;
+  color:#1b262c;
+  margin: 6%;
+    div.col-sm.left {
+      background-color: #1b262c;
+      color: white;
+      padding: 4%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  div.col-sm.right{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h3.allerta {
+    font-size: 4rem;
+  }
+  div.container {
+    font-size: .8rem;
+  }
+
+}
+.experience {
+  background-color:#1b262c;
+  color: white;
+  padding: 5%;
+  div.row {
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+  }
+  .col-sm{
+    margin-top: 1em;
+    
+  }
+
+  
+}
+.previous-experience {
+  background-color: white;
+  color:#1b262c;
+  margin: 5%;
+
+}
+.interests {
+  background-color: #1b262c;
+  color: white;
+  padding: 5%;
+}
+.contact {
+  background-color: white;
+  color:#1b262c;
+  margin: 5%;
+}
