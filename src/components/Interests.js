@@ -24,7 +24,7 @@ const Interests = () => {
       <div className="row-dog">
       <div className="col-sm">
           <p>Dogs,
-            I just got a new puppy. His name his Hugo. He is a little CockaPoo.
+            I just got a new puppy. His name is Hugo. He is a little CockaPoo.
 
           </p>
         </div>
