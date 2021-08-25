@@ -4,6 +4,7 @@ const Previous = () => {
 
   return (
     <>
+    
       <h2 className="allerta">Previous Experience</h2>
       <div className="row">
         <div className="col-sm">

@@ -12,26 +12,26 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <section className="home">
-      <div className="allerta home mx-auto" style={{ width: '500px' }}>
+      <section className="home" id="homy">
+      <div className="allerta home mx-auto">
       
         <p>Ole Nascimento</p>
         <p>Developer</p>
       </div>
       </section>
-      <section className="about" fluid>
+      <section className="about" id="abouty" fluid>
         <About />
       </section>
-      <section className="experience">
+      <section className="experience" id="exp">
         <Experience />
       </section>
-      <section className="previous-experience">
+      <section className="previous-experience" id="prev">
         <Previous />
       </section>
-      <section className="interests">
+      <section className="interests" id="inter">
         <Interests />
       </section>
-      <section className="contact">
+      <section className="contact" id="con">
         <Contact />
       </section>
     </>
