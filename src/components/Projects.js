@@ -7,7 +7,7 @@ const Projects = () => {
     <><div><h3 className="allerta">Experience</h3></div>
     <div className="row">
         <div className="col-sm">
-          <div><h3 className="allerta">General Assembly Software Engineergin Immersive</h3></div>
+          <div><h3 className="allerta">General Assembly Software Engineering Immersive</h3></div>
           <div><p>This is a three month intensive Software Engineering course teaching fullstack software development using current technologies including JavaScript, React, Mongoose, Python SQL and noSQL. During the course I completed a total of four independent projects. The course was delivered via Zoom and Slack.
           Two of the projects were done as a group and two were individual projects. Details about each project are in my accomplishments section.
  </p></div>

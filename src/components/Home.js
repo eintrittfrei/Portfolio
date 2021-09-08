@@ -14,7 +14,7 @@ const Home = () => {
       <div className="allerta home mx-auto">
       
         <p>Ole Nascimento</p>
-        <p>Developer</p>
+        <p>Software Developer</p>
       </div>
       </section>
       <section className="about" id="abouty" fluid>
