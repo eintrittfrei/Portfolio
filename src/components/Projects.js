@@ -5,6 +5,25 @@ const Projects = () => {
 
   return (
     <><div><h3 className="allerta">Experience</h3></div>
+    <div className="row">
+        <div className="col-sm">
+          <div><h3 className="allerta">General Assembly Software Engineergin Immersive</h3></div>
+          <div><p>This is a three month intensive Software Engineering course teaching fullstack software development using current technologies including JavaScript, React, Mongoose, Python SQL and noSQL. During the course I completed a total of four independent projects. The course was delivered via Zoom and Slack.
+          Two of the projects were done as a group and two were individual projects. Details about each project are in my accomplishments section.
+ </p></div>
+        </div>
+        <div className="col-sm">
+          <a rel="noreferrer" target="_blank" href="https://generalassemb.ly/education/software-engineering-immersive/london">GA website</a>
+          <img
+            class="img-fluid"
+            src="./assets/GA.png"
+            alt="general assembly website screenshot"
+           />
+        </div>
+        <div className="projects" fluid>
+        <h3 className="allerta">Projects</h3>
+        </div>
+      </div>
       <div className="row">
         <div className="col-sm">
           <div><h3 className="allerta">Furniture App</h3></div>

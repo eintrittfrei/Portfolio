@@ -131,7 +131,7 @@ div.allerta.home.mx-auto {
   div.row {
     display: flex;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 5em;
   }
   .col-sm{
     margin-top: 1em;
@@ -146,6 +146,9 @@ div.allerta.home.mx-auto {
     text-decoration: none;
     color: white;
     
+  }
+  div.projects {
+    margin: 10em 0 5em 0;
   }
 }
 
