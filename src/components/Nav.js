@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div className="container">
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#homy"><span className="o">O</span>N <span className="o">Portfolio</span></a>
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#homy"><span className="o">O</span>N <span className="o">Portfolio</span></a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

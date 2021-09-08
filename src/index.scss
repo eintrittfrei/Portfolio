@@ -49,6 +49,8 @@ color: #1b262c;
   max-width: 4em;
   min-width: 1em;
   margin: 1rem;
+  fill: #1b262c;
+  color: #1b262c;
   
   }
   
@@ -202,6 +204,7 @@ h2.allerta {
       p {
         padding: 5%;
       }
+
     }
 }
 // Contact
@@ -211,11 +214,27 @@ h2.allerta {
   color:#1b262c;
   margin: 5%;
   display: flex;
+  flex-direction: column;
   img {
     
     border-radius: 100%;
   }
   ul {
     list-style-type: none;
+    img-fluid {
+      max-width: 4em;
+      min-width: 1em;
+      margin: 1rem;
+    }
   }
+  
 }
+.fa-github {
+  color:#1b262c;
+} 
+.fa-linkedin {
+  color:#1b262c;
+} 
+.fa-envelope {
+  color:#1b262c;
+} 
