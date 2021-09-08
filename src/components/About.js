@@ -13,9 +13,12 @@ const About = () => {
         <div className="col-sm right">
           <div><h3 className="allerta">Skills</h3></div>
           <div><div className="logos">
+            
             <svg className='devicon-devicon-plain' fluid viewBox="0 0 128 128">
               <path d="M3.656 45.043s-3.027-2.191.61-5.113l8.468-7.594s2.426-2.559 4.989-.328l78.175 59.328v28.45s-.039 4.468-5.757 3.976zm0 0" fill="#2489ca"></path><path d="M23.809 63.379L3.656 81.742s-2.07 1.543 0 4.305l9.356 8.527s2.222 2.395 5.508-.328l21.359-16.238zm0 0" fill="#1070b3"></path><path d="M59.184 63.531l36.953-28.285-.239-28.297S94.32.773 89.055 3.99L39.879 48.851zm0 0" fill="#0877b9"></path><path d="M90.14 123.797c2.145 2.203 4.747 1.48 4.747 1.48l28.797-14.222c3.687-2.52 3.171-5.645 3.171-5.645V20.465c0-3.735-3.812-5.024-3.812-5.024L98.082 3.38c-5.453-3.379-9.027.61-9.027.61s4.593-3.317 6.843 2.96v112.317c0 .773-.164 1.53-.492 2.214-.656 1.332-2.086 2.57-5.504 2.051zm0 0" fill="#3c99d4"></path>
             </svg>
+            
+            
             <svg className='devicon-devicon-plain' viewBox="0 0 128 128">
               <path fill="#1572B6" d="M19.67 26l8.069 90.493 36.206 10.05 36.307-10.063L108.33 26H19.67zm69.21 50.488L86.53 98.38l.009 1.875L64 106.55v.001l-.018.015-22.719-6.225L39.726 83h11.141l.79 8.766 12.347 3.295-.004.015v-.032l12.394-3.495L77.702 77H51.795l-.222-2.355-.506-5.647L50.802 66h27.886l1.014-11H37.229l-.223-2.589-.506-6.03L36.235 43h55.597l-.267 3.334-2.685 30.154M89 14.374L81.851 6H89V1H73v4.363L81.39 13H73v5h16zm-19 0L63.193 6H70V1H55v4.363L62.733 13H55v5h15zM52 13h-8V6h8V1H38v17h14z"></path>
             </svg>
@@ -74,7 +77,7 @@ const About = () => {
       <div className="container">
           <p> 
             <h5>Front End</h5>
-            HTML | CSS | Flexbox | CSS Frameworks Bootstrap &  Bulma | SASS | JavaScript | React | JsonWebToken</p>
+            HTML | CSS | Flexbox | CSS Frameworks Bootstrap  Bulma | SASS | JavaScript | React | JsonWebToken</p>
           <p>
             <h5>Backend</h5>
             Node.js |  NoSQL | Express.js | Python |  MongoDB |  Mongoose | Django | SQL | 

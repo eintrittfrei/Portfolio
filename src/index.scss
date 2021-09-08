@@ -33,11 +33,11 @@ a.navbar-brand {
 //   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 //     monospace;
 // }
-.devicon-vscode-plain-wordmark{
-max-width: 2em;
-fill: #1b262c;
-color: #1b262c;
-}
+// .devicon-vscode-plain-wordmark{
+// max-width: 2em;
+// fill: #1b262c;
+// color: #1b262c;
+// }
 h1 {
   color: #1b262c;
 }
@@ -47,7 +47,8 @@ color: #1b262c;
 }
 .devicon-devicon-plain {
   max-width: 4em;
-  margin: 1em;
+  min-width: 1em;
+  margin: 1rem;
   
   }
   
@@ -102,7 +103,7 @@ div.allerta.home.mx-auto {
       margin-top: 3%;
       display: flex;
       flex-direction: column;
-    align-items: center;
+      align-items: center;
     
     }
     
@@ -124,7 +125,7 @@ div.allerta.home.mx-auto {
   background-color:#1b262c;
   color: white;
   padding: 5%;
-  // margin: 10%;
+  
   div.row {
     display: flex;
     align-items: center;
@@ -151,8 +152,8 @@ div.allerta.home.mx-auto {
 .previous-experience {
   background-color: white;
   color:#1b262c;
-  margin: 10%;
-  display: flex;
+  margin: 5%;
+  
 
   div.row {
     display: flex;
@@ -162,7 +163,7 @@ div.allerta.home.mx-auto {
 }
 
 h2.allerta {
-  margin: 5%;
+  margin-bottom: 5%;
 }
 
 // Interests
@@ -171,21 +172,37 @@ h2.allerta {
   background-color: #1b262c;
   color: white;
   padding: 5%;
-  .img-fluid {
-    border-radius: 5px;
-    
-  }
   
-  div.row-run {
+    .img-fluid {
+      max-height: 20em;
+      padding: 5%;
+      border-radius: 32px;
+    
+    }
+  
+    div.row-run {
+      padding: 2em;
+      background-color:#1b262c;
+      color:white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+        p {
+          padding: 5%;
+        }
+
+    }
+    div.row-dog {
     padding: 2em;
-    background-color: white;
-    color: #1b262c;
-  }
-div.row-dog {
-  padding: 2em;
-  background-color: white;
-    color: #1b262c;
-}
+    background-color:#1b262c;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      p {
+        padding: 5%;
+      }
+    }
 }
 // Contact
 
@@ -195,7 +212,7 @@ div.row-dog {
   margin: 5%;
   display: flex;
   img {
-    // max-height: 50%;
+    
     border-radius: 100%;
   }
   ul {

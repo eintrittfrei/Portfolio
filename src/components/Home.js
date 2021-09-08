@@ -5,10 +5,8 @@ import Previous from './Previous.js'
 import Interests from './Interests.js'
 import Contact from './Contact.js'
 import Navbar from './Nav.js'
+
 const Home = () => {
-
-
-
   return (
     <>
       <Navbar />
