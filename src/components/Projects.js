@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="col-sm">
           <div><h3 className="allerta">General Assembly Software Engineering Immersive</h3></div>
           <div><p>This is a three month intensive Software Engineering course teaching fullstack software development using current technologies including JavaScript, React, Mongoose, Python SQL and noSQL. During the course I completed a total of four independent projects. The course was delivered via Zoom and Slack.
-          Two of the projects were done as a group and two were individual projects. Details about each project are in my accomplishments section.
+          Two of the projects were done as a group and two were individual projects.
  </p></div>
         </div>
         <div className="col-sm">
@@ -62,7 +62,7 @@ const Projects = () => {
           <div><p>This was a pair coded hackathon. The task was to build a front end application using weatherapi.com. This basic weather app was built using React and Bulma.</p></div>
         </div>
         <div className="col-sm">
-        <a  rel="noreferrer" target="_blank" href="https://project2-weatherapp.netlify.app/">Go to project</a>
+        <a  rel="noreferrer" target="_blank" href="https://oleproject2.netlify.app/">Go to project</a>
           <img
             class="img-fluid"
             src="./assets/weather.png"

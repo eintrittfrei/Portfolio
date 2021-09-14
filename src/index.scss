@@ -29,15 +29,7 @@ a.navbar-brand {
   }
 }
 
-// code {
-//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-//     monospace;
-// }
-// .devicon-vscode-plain-wordmark{
-// max-width: 2em;
-// fill: #1b262c;
-// color: #1b262c;
-// }
+
 h1 {
   color: #1b262c;
 }
@@ -48,6 +40,7 @@ color: #1b262c;
 .devicon-devicon-plain {
   max-width: 4em;
   min-width: 4em;
+  min-height: 4em;
   margin: 1rem;
   fill: #1b262c;
   color: #1b262c;
@@ -57,10 +50,7 @@ color: #1b262c;
 .allerta {
   font-family: Allerta Stencil;
 }
-// div.allerta.home {
-//   margin-top: 10em;
 
-// }
 .home{
   background-color: #1b262c;
   padding: 15%;
@@ -112,13 +102,19 @@ div.allerta.home.mx-auto {
   }
   svg.devicon-devicon-plain {
     border: solid  1px #1b262c;
-    padding: 1%;
+    padding: 5%;
   }
   div.logos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  div.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
   }
 }
 
