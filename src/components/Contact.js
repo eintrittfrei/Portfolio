@@ -4,7 +4,6 @@ const Contact = () => {
 
   return (
     <>
-      <h2 className="allerta">Contact</h2>
       <div className="row">
         <div className="col-sm">
         <img src="./assets/ole.jpg" alt="headshot" class="img-fluid" />

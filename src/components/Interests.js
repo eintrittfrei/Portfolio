@@ -7,7 +7,6 @@ const Interests = () => {
 
     <>
     
-      <h2 className="allerta">Interests</h2>
       <div className="row-run">
         <div className="col-sm">
           <p>

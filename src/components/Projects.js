@@ -4,7 +4,7 @@ import React from 'react'
 const Projects = () => {
 
   return (
-    <><div><h3 className="allerta">Experience</h3></div>
+    <>
     <div className="row">
         <div className="col-sm">
           <div><h3 className="allerta">General Assembly Software Engineering Immersive</h3></div>
@@ -21,7 +21,7 @@ const Projects = () => {
            />
         </div>
         <div className="projects" fluid>
-        <h3 className="allerta">Projects</h3>
+        <h2 className="allerta">Projects</h2>
         </div>
       </div>
       <div className="row">

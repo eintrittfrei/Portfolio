@@ -5,7 +5,6 @@ const Previous = () => {
   return (
     <>
     
-      <h2 className="allerta">Previous Experience</h2>
       <div className="row">
         <div className="col-sm">
           <h3>Travel Health and Immunisations Specialist Nurse, Public Health England, London, January 2020 - March 2021</h3>
