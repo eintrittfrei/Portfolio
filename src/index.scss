@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 body {
   margin: 0;
-  font-family: 'nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: #1b262c;
   color: white;
 
 }
@@ -147,6 +147,7 @@ div.allerta.home.mx-auto {
   div.row {
     display: flex;
     align-items: center;
+    margin-bottom: 5%;
     
   }
   .col-sm{
