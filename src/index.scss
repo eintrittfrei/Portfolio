@@ -64,7 +64,27 @@ div.allerta.home.mx-auto {
 }
 
 //About
+.skills {
+  background-color: white;
+  color:#1b262c;
+  margin: 10% 10% 10% 10%;
+  padding: 0 5% 0 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
 
+}
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+.break {
+  min-height: 5%;
+  background-color: #1b262c;
+}
 .about{
   background-color: white;
   color:#1b262c;

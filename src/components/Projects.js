@@ -12,6 +12,7 @@ const Projects = () => {
           Two of the projects were done as a group and two were individual projects.
  </p></div>
         </div>
+        
         <div className="col-sm">
           <a rel="noreferrer" target="_blank" href="https://generalassemb.ly/education/software-engineering-immersive/london">GA website</a>
           <img
@@ -20,10 +21,8 @@ const Projects = () => {
             alt="general assembly website screenshot"
            />
         </div>
-        <div className="projects" fluid>
-        <h2 className="allerta">Projects</h2>
-        </div>
       </div>
+      <div className="section-heading"><h2 className="allerta">Projects</h2></div>
       <div className="row">
         <div className="col-sm">
           <div><h3 className="allerta">Furniture App</h3></div>
@@ -86,6 +85,7 @@ const Projects = () => {
             alt="project4"
              />
         </div>
+        
       </div>
 
     </>

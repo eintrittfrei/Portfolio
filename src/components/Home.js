@@ -17,28 +17,29 @@ const Home = () => {
         <p>Software Developer</p>
       </div>
       </section>
-      <section className="about" id="abouty">
-      <div><h3 className="allerta">About Me</h3></div>
+      <section className="skills" id="abouty">
+      <div className="section-heading"><h2 className="allerta">About Me</h2></div>
         <Skills />
       </section>
+      <div className="break" fluid></div>
       <section className="about" id="skilly" fluid>
-      <div><h3 className="allerta">Skills</h3></div>
+      <div className="section-heading"><h3 className="allerta">Skills</h3></div>
         <About />
       </section>
       <section className="experience" id="exp">
-      <div><h2 className="allerta">Experience</h2></div>
+      <div className="section-heading"><h2 className="allerta">Experience</h2></div>
         <Experience />
       </section>
       <section className="previous-experience" id="prev">
-        <div><h2 className="allerta">Previous Experience</h2></div>
+        <div className="section-heading"><h2 className="allerta">Previous Experience</h2></div>
         <Previous />
       </section>
       <section className="interests" id="inter">
-      <div><h2 className="allerta">Interests</h2></div>
+      <div className="section-heading"><h2 className="allerta">Interests</h2></div>
         <Interests />
       </section>
       <section className="contact" id="con">
-        <div><h2 className="allerta">Contact</h2></div>
+        <div className="section-heading"><h2 className="allerta">Contact</h2></div>
         <Contact />
       </section>
     </>
