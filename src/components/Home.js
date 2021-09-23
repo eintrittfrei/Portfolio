@@ -21,8 +21,8 @@ const Home = () => {
       <div className="section-heading"><h2 className="allerta">About Me</h2></div>
         <Skills />
       </section>
-      <div className="break" fluid></div>
-      <section className="about" id="skilly" fluid>
+      <div className="break" fluid="true"></div>
+      <section className="about" id="skilly" fluid="true">
       <div className="section-heading"><h3 className="allerta">Skills</h3></div>
         <About />
       </section>

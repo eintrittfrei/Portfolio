@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="col-sm">
           
           <img
-            class="img-fluid"
+            className="img-fluid"
             src="./assets/GA.png"
             alt="general assembly website screenshot"
            />
@@ -37,7 +37,7 @@ const Projects = () => {
         <div className="col-sm">
           
           <img
-            class="img-fluid"
+            className="img-fluid"
             src="./assets/furniture.png"
             alt="project4"
            />
@@ -58,7 +58,7 @@ const Projects = () => {
         </div>
         <div className="col-sm">
           <img
-            class="img-fluid"
+            className="img-fluid"
             src="./assets/heiss.png"
             alt="project4"
              />
@@ -74,7 +74,7 @@ const Projects = () => {
         </div>
         <div className="col-sm">
           <img
-            class="img-fluid"
+            className="img-fluid"
             src="./assets/weather.png"
             alt="project4"
              />
@@ -93,7 +93,7 @@ const Projects = () => {
         
         <div className="col-sm">
           <img
-          class="img-fluid"
+          className="img-fluid"
             src="./assets/space.png"
             alt="project4"
              />
