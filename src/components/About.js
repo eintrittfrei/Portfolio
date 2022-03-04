@@ -10,19 +10,19 @@ const About = () => {
         <div className="col-sm left">
           <div className="container">
 
-            <h5>Front-end</h5>
+            <h3>Front-end</h3>
             <p>HTML | CSS | Flexbox | Bootstrap | Bulma | SASS | JSON Web Tokens | JavaScript | React.js</p>
-            <h5>Back-end</h5>
+            <h3>Back-end</h3>
             <p>Node.js |  NoSQL | Express.js | Python |  MongoDB |  Mongoose | Django | SQL</p>
-            <h5>Packages</h5>
+            <h3>Packages</h3>
             <p>
               Yarn | npm | Pipenv
             </p>
-            <h5>Storage/ Version control</h5>
+            <h3>Storage/ Version control</h3>
             <p>
               Git | GitHub | Heroku
             </p>
-            <h5>Methodologies</h5>
+            <h3>Methodologies</h3>
             <p>
               pair programming | daily standups | CRUD
             </p>
